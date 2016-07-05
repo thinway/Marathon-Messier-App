@@ -6,7 +6,7 @@
 //  Copyright © 2016 Fran Delgado. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "FDCAppDelegate.h"
 
 @interface AppDelegate ()
 
@@ -18,8 +18,12 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+    
+    self.window.backgroundColor = [UIColor orangeColor];
     [self.window makeKeyAndVisible];
+    
+    self.window.rootViewController = [UIViewController new];
+    
     return YES;
 }
 

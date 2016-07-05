@@ -8,19 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		32611D451D2C316A0034D300 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32611D441D2C316A0034D300 /* main.m */; };
-		32611D481D2C316A0034D300 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32611D471D2C316A0034D300 /* AppDelegate.m */; };
+		32611D481D2C316A0034D300 /* FDCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32611D471D2C316A0034D300 /* FDCAppDelegate.m */; };
 		32611D4A1D2C316A0034D300 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32611D491D2C316A0034D300 /* Assets.xcassets */; };
 		32611D4D1D2C316A0034D300 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32611D4B1D2C316A0034D300 /* LaunchScreen.storyboard */; };
+		32611D561D2C348E0034D300 /* FDCMessierObjectModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 32611D551D2C348E0034D300 /* FDCMessierObjectModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		32611D401D2C316A0034D300 /* Maraton Messier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Maraton Messier.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		32611D441D2C316A0034D300 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		32611D461D2C316A0034D300 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		32611D471D2C316A0034D300 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		32611D461D2C316A0034D300 /* FDCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FDCAppDelegate.h; sourceTree = "<group>"; };
+		32611D471D2C316A0034D300 /* FDCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FDCAppDelegate.m; sourceTree = "<group>"; };
 		32611D491D2C316A0034D300 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32611D4C1D2C316A0034D300 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		32611D4E1D2C316A0034D300 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32611D541D2C348E0034D300 /* FDCMessierObjectModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDCMessierObjectModel.h; sourceTree = "<group>"; };
+		32611D551D2C348E0034D300 /* FDCMessierObjectModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDCMessierObjectModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +56,9 @@
 		32611D421D2C316A0034D300 /* Maraton Messier */ = {
 			isa = PBXGroup;
 			children = (
-				32611D461D2C316A0034D300 /* AppDelegate.h */,
-				32611D471D2C316A0034D300 /* AppDelegate.m */,
+				32611D461D2C316A0034D300 /* FDCAppDelegate.h */,
+				32611D471D2C316A0034D300 /* FDCAppDelegate.m */,
+				32611D571D2C34930034D300 /* Models */,
 				32611D491D2C316A0034D300 /* Assets.xcassets */,
 				32611D4B1D2C316A0034D300 /* LaunchScreen.storyboard */,
 				32611D4E1D2C316A0034D300 /* Info.plist */,
@@ -69,6 +73,15 @@
 				32611D441D2C316A0034D300 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		32611D571D2C34930034D300 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				32611D541D2C348E0034D300 /* FDCMessierObjectModel.h */,
+				32611D551D2C348E0034D300 /* FDCMessierObjectModel.m */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,8 +153,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32611D481D2C316A0034D300 /* AppDelegate.m in Sources */,
+				32611D481D2C316A0034D300 /* FDCAppDelegate.m in Sources */,
 				32611D451D2C316A0034D300 /* main.m in Sources */,
+				32611D561D2C348E0034D300 /* FDCMessierObjectModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

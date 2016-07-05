@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "AppDelegate.h"
+#import "FDCAppDelegate.h"
 
 int main(int argc, char * argv[]) {
     @autoreleasepool {
