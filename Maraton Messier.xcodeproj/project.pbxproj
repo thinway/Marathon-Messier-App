@@ -12,6 +12,13 @@
 		32611D4A1D2C316A0034D300 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32611D491D2C316A0034D300 /* Assets.xcassets */; };
 		32611D4D1D2C316A0034D300 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32611D4B1D2C316A0034D300 /* LaunchScreen.storyboard */; };
 		32611D561D2C348E0034D300 /* FDCMessierObjectModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 32611D551D2C348E0034D300 /* FDCMessierObjectModel.m */; };
+		32611D5B1D2C40870034D300 /* FDCMessierObjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32611D591D2C40870034D300 /* FDCMessierObjectViewController.m */; };
+		32611D5C1D2C40870034D300 /* FDCMessierObjectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32611D5A1D2C40870034D300 /* FDCMessierObjectViewController.xib */; };
+		32611D651D2ED9C90034D300 /* 900px-Crab_Nebula.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 32611D641D2ED9C90034D300 /* 900px-Crab_Nebula.jpg */; };
+		329D46BD1D3032AC00681AF2 /* FDCWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 329D46BB1D3032AC00681AF2 /* FDCWebViewController.m */; };
+		329D46BE1D3032AC00681AF2 /* FDCWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 329D46BC1D3032AC00681AF2 /* FDCWebViewController.xib */; };
+		329D46C01D3104FD00681AF2 /* 600px-Messier_2_Hubble_WikiSky.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 329D46BF1D3104FD00681AF2 /* 600px-Messier_2_Hubble_WikiSky.jpg */; };
+		329D46C21D31070100681AF2 /* M3LRGB_891x674.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 329D46C11D31070100681AF2 /* M3LRGB_891x674.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,15 @@
 		32611D4E1D2C316A0034D300 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		32611D541D2C348E0034D300 /* FDCMessierObjectModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDCMessierObjectModel.h; sourceTree = "<group>"; };
 		32611D551D2C348E0034D300 /* FDCMessierObjectModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDCMessierObjectModel.m; sourceTree = "<group>"; };
+		32611D581D2C40870034D300 /* FDCMessierObjectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDCMessierObjectViewController.h; sourceTree = "<group>"; };
+		32611D591D2C40870034D300 /* FDCMessierObjectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDCMessierObjectViewController.m; sourceTree = "<group>"; };
+		32611D5A1D2C40870034D300 /* FDCMessierObjectViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FDCMessierObjectViewController.xib; sourceTree = "<group>"; };
+		32611D641D2ED9C90034D300 /* 900px-Crab_Nebula.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "900px-Crab_Nebula.jpg"; sourceTree = "<group>"; };
+		329D46BA1D3032AC00681AF2 /* FDCWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDCWebViewController.h; sourceTree = "<group>"; };
+		329D46BB1D3032AC00681AF2 /* FDCWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDCWebViewController.m; sourceTree = "<group>"; };
+		329D46BC1D3032AC00681AF2 /* FDCWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FDCWebViewController.xib; sourceTree = "<group>"; };
+		329D46BF1D3104FD00681AF2 /* 600px-Messier_2_Hubble_WikiSky.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "600px-Messier_2_Hubble_WikiSky.jpg"; sourceTree = "<group>"; };
+		329D46C11D31070100681AF2 /* M3LRGB_891x674.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = M3LRGB_891x674.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +74,8 @@
 			children = (
 				32611D461D2C316A0034D300 /* FDCAppDelegate.h */,
 				32611D471D2C316A0034D300 /* FDCAppDelegate.m */,
+				32611D661D2ED9D30034D300 /* Resources */,
+				32611D5D1D2C408E0034D300 /* Controllers */,
 				32611D571D2C34930034D300 /* Models */,
 				32611D491D2C316A0034D300 /* Assets.xcassets */,
 				32611D4B1D2C316A0034D300 /* LaunchScreen.storyboard */,
@@ -82,6 +100,29 @@
 				32611D551D2C348E0034D300 /* FDCMessierObjectModel.m */,
 			);
 			name = Models;
+			sourceTree = "<group>";
+		};
+		32611D5D1D2C408E0034D300 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				32611D581D2C40870034D300 /* FDCMessierObjectViewController.h */,
+				32611D591D2C40870034D300 /* FDCMessierObjectViewController.m */,
+				32611D5A1D2C40870034D300 /* FDCMessierObjectViewController.xib */,
+				329D46BA1D3032AC00681AF2 /* FDCWebViewController.h */,
+				329D46BB1D3032AC00681AF2 /* FDCWebViewController.m */,
+				329D46BC1D3032AC00681AF2 /* FDCWebViewController.xib */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		32611D661D2ED9D30034D300 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				32611D641D2ED9C90034D300 /* 900px-Crab_Nebula.jpg */,
+				329D46BF1D3104FD00681AF2 /* 600px-Messier_2_Hubble_WikiSky.jpg */,
+				329D46C11D31070100681AF2 /* M3LRGB_891x674.jpg */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,7 +182,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32611D651D2ED9C90034D300 /* 900px-Crab_Nebula.jpg in Resources */,
+				329D46BE1D3032AC00681AF2 /* FDCWebViewController.xib in Resources */,
+				329D46C21D31070100681AF2 /* M3LRGB_891x674.jpg in Resources */,
+				329D46C01D3104FD00681AF2 /* 600px-Messier_2_Hubble_WikiSky.jpg in Resources */,
 				32611D4A1D2C316A0034D300 /* Assets.xcassets in Resources */,
+				32611D5C1D2C40870034D300 /* FDCMessierObjectViewController.xib in Resources */,
 				32611D4D1D2C316A0034D300 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -153,8 +199,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32611D5B1D2C40870034D300 /* FDCMessierObjectViewController.m in Sources */,
 				32611D481D2C316A0034D300 /* FDCAppDelegate.m in Sources */,
 				32611D451D2C316A0034D300 /* main.m in Sources */,
+				329D46BD1D3032AC00681AF2 /* FDCWebViewController.m in Sources */,
 				32611D561D2C348E0034D300 /* FDCMessierObjectModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,6 +346,7 @@
 				32611D531D2C316A0034D300 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -20,6 +20,7 @@
                    objectType: (NSString *) anObjectType
                      distance: (double) aDistance
                 constellation: (NSString *) aConstellation
+                        notes: (NSString *) aNote
             apparentMagnitude: (double) anApparentMagnitude
                       webLink: (NSURL *) aWebLink
                         photo: (UIImage *) aPhoto
@@ -30,6 +31,7 @@
                                     objectType: anObjectType
                                       distance: aDistance
                                  constellation: aConstellation
+                                         notes: aNote
                              apparentMagnitude: anApparentMagnitude
                                        webLink: aWebLink
                                          photo: aPhoto];
@@ -55,6 +57,7 @@
                  objectType: (NSString *) anObjectType
                    distance: (double) aDistance
               constellation: (NSString *) aConstellation
+                      notes: (NSString *) aNote
           apparentMagnitude: (double) anApparentMagnitude
                     webLink: (NSURL *) aWebLink
                       photo: (UIImage *) aPhoto
@@ -66,6 +69,7 @@
         _objectType = anObjectType;
         _distance = aDistance;
         _constellation = aConstellation;
+        _notes = aNote;
         _apparentMagnitude = anApparentMagnitude;
         _webLink = aWebLink;
         _photo = aPhoto;
@@ -87,6 +91,7 @@
         _objectType = anObjectType;
         _distance = NO_CODE_NUMBER;
         _constellation = aConstellation;
+        _notes = nil;
         _apparentMagnitude = NO_CODE_NUMBER;
         _webLink = nil;
         _photo = nil;

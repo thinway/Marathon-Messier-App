@@ -17,6 +17,7 @@
 @property (strong, nonatomic) NSString * objectType;
 @property (nonatomic) double distance; // In thousands of light years
 @property (strong, nonatomic) NSString * constellation;
+@property (strong, nonatomic) NSString * notes;
 @property (nonatomic) double apparentMagnitude;
 @property (strong, nonatomic) NSURL * webLink;
 @property (strong, nonatomic) UIImage * photo;
@@ -29,6 +30,7 @@
                    objectType: (NSString *) anObjectType
                      distance: (double) aDistance
                 constellation: (NSString *) aConstellation
+                        notes: (NSString *) aNote
             apparentMagnitude: (double) anApparentMagnitude
                       webLink: (NSURL *) aWebLink
                         photo: (UIImage *) aPhoto;
@@ -45,6 +47,7 @@
                  objectType: (NSString *) anObjectType
                    distance: (double) aDistance
               constellation: (NSString *) aConstellation
+                      notes: (NSString *) aNote
           apparentMagnitude: (double) anApparentMagnitude
                     webLink: (NSURL *) aWebLink
                       photo: (UIImage *) aPhoto;
